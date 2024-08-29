@@ -1,0 +1,53 @@
+2023-03-05 22:13:06,266 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2023-03-05 22:13:06,266 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2023-03-05 22:27:00,890 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2023-03-05 22:27:00,891 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2023-03-05 22:32:51,869 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2023-03-05 22:32:51,869 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2023-03-05 22:33:06,519 - werkzeug - INFO - 127.0.0.1 - - [05/Mar/2023 22:33:06] "[33mGET / HTTP/1.1[0m" 404 -
+2023-03-05 22:33:06,743 - werkzeug - INFO - 127.0.0.1 - - [05/Mar/2023 22:33:06] "GET /fail HTTP/1.1" 200 -
+2023-03-05 22:33:06,752 - werkzeug - INFO - 127.0.0.1 - - [05/Mar/2023 22:33:06] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2023-03-05 22:33:06,868 - werkzeug - INFO - 127.0.0.1 - - [05/Mar/2023 22:33:06] "[33mGET / HTTP/1.1[0m" 404 -
+2023-03-05 22:33:11,027 - werkzeug - INFO - 127.0.0.1 - - [05/Mar/2023 22:33:11] "GET /fail HTTP/1.1" 200 -
+2023-03-05 22:33:11,036 - werkzeug - INFO - 127.0.0.1 - - [05/Mar/2023 22:33:11] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2023-03-05 22:33:11,190 - werkzeug - INFO - 127.0.0.1 - - [05/Mar/2023 22:33:11] "[32mGET /main HTTP/1.1[0m" 302 -
+2023-03-05 22:33:11,198 - werkzeug - INFO - 127.0.0.1 - - [05/Mar/2023 22:33:11] "GET /login HTTP/1.1" 200 -
+2023-03-05 22:33:11,201 - werkzeug - INFO - 127.0.0.1 - - [05/Mar/2023 22:33:11] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2023-03-05 22:33:11,203 - werkzeug - INFO - 127.0.0.1 - - [05/Mar/2023 22:33:11] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2023-03-05 22:33:26,417 - werkzeug - INFO - 127.0.0.1 - - [05/Mar/2023 22:33:26] "[32mPOST /login HTTP/1.1[0m" 302 -
+2023-03-05 22:33:26,432 - werkzeug - INFO - 127.0.0.1 - - [05/Mar/2023 22:33:26] "GET /main HTTP/1.1" 200 -
+2023-03-05 22:33:26,436 - werkzeug - INFO - 127.0.0.1 - - [05/Mar/2023 22:33:26] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2023-03-05 22:33:29,730 - werkzeug - INFO - 127.0.0.1 - - [05/Mar/2023 22:33:29] "GET /change_password HTTP/1.1" 200 -
+2023-03-05 22:33:29,740 - werkzeug - INFO - 127.0.0.1 - - [05/Mar/2023 22:33:29] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2023-03-05 22:33:35,942 - werkzeug - INFO - 127.0.0.1 - - [05/Mar/2023 22:33:35] "POST /change_password HTTP/1.1" 200 -
+2023-03-05 22:33:35,953 - werkzeug - INFO - 127.0.0.1 - - [05/Mar/2023 22:33:35] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2023-03-05 22:33:46,393 - werkzeug - INFO - 127.0.0.1 - - [05/Mar/2023 22:33:46] "[32mPOST /change_password HTTP/1.1[0m" 302 -
+2023-03-05 22:33:46,402 - werkzeug - INFO - 127.0.0.1 - - [05/Mar/2023 22:33:46] "GET /login HTTP/1.1" 200 -
+2023-03-05 22:33:46,406 - werkzeug - INFO - 127.0.0.1 - - [05/Mar/2023 22:33:46] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2023-03-05 22:33:57,332 - werkzeug - INFO - 127.0.0.1 - - [05/Mar/2023 22:33:57] "[32mPOST /login HTTP/1.1[0m" 302 -
+2023-03-05 22:33:57,340 - werkzeug - INFO - 127.0.0.1 - - [05/Mar/2023 22:33:57] "GET /main HTTP/1.1" 200 -
+2023-03-05 22:33:57,344 - werkzeug - INFO - 127.0.0.1 - - [05/Mar/2023 22:33:57] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2023-03-05 22:33:58,996 - werkzeug - INFO - 127.0.0.1 - - [05/Mar/2023 22:33:58] "GET /logout HTTP/1.1" 200 -
+2023-03-05 22:33:59,007 - werkzeug - INFO - 127.0.0.1 - - [05/Mar/2023 22:33:59] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2023-03-05 22:34:00,227 - werkzeug - INFO - 127.0.0.1 - - [05/Mar/2023 22:34:00] "GET /login HTTP/1.1" 200 -
+2023-03-05 22:34:00,237 - werkzeug - INFO - 127.0.0.1 - - [05/Mar/2023 22:34:00] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2023-03-05 23:04:06,815 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2023-03-05 23:04:06,816 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2023-03-05 23:04:18,040 - werkzeug - INFO - 127.0.0.1 - - [05/Mar/2023 23:04:18] "GET /fail HTTP/1.1" 200 -
+2023-03-05 23:04:18,049 - werkzeug - INFO - 127.0.0.1 - - [05/Mar/2023 23:04:18] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2023-03-05 23:04:21,953 - werkzeug - INFO - 127.0.0.1 - - [05/Mar/2023 23:04:21] "[32mGET /main HTTP/1.1[0m" 302 -
+2023-03-05 23:04:21,965 - werkzeug - INFO - 127.0.0.1 - - [05/Mar/2023 23:04:21] "GET /login HTTP/1.1" 200 -
+2023-03-05 23:04:21,967 - werkzeug - INFO - 127.0.0.1 - - [05/Mar/2023 23:04:21] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2023-03-05 23:04:29,026 - root - ERROR - 192.168.86.69 - Login failed.
+2023-03-05 23:04:29,026 - werkzeug - INFO - 127.0.0.1 - - [05/Mar/2023 23:04:29] "[32mPOST /login HTTP/1.1[0m" 302 -
+2023-03-05 23:04:29,035 - werkzeug - INFO - 127.0.0.1 - - [05/Mar/2023 23:04:29] "GET /fail HTTP/1.1" 200 -
+2023-03-05 23:04:29,039 - werkzeug - INFO - 127.0.0.1 - - [05/Mar/2023 23:04:29] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2024-01-08 21:49:54,751 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2024-01-08 21:49:54,752 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2024-01-08 21:51:14,628 - werkzeug - INFO - 127.0.0.1 - - [08/Jan/2024 21:51:14] "[33mGET / HTTP/1.1[0m" 404 -
+2024-01-08 21:51:14,641 - werkzeug - INFO - 127.0.0.1 - - [08/Jan/2024 21:51:14] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -

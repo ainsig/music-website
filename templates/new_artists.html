@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <!-- Link to style sheet -->
+    <link rel="stylesheet" type="text/css" href="{{url_for('static', filename='css/style.css')}}">
+    <title>New Artists</title>
+</head>
+<body>
+
+    <!-- Headings -->
+    <h1>Up and coming artists...</h1>
+    <h2>Your friends wish they knew...</h2>
+    <h3>SHHH it's top secret...</h3>
+
+    <!-- Links to main page and trending songs page -->
+    <p class="main"><a href={{url_for('get_main_page')}}>Main Page</a></p>
+    <p class="trending"><a href={{url_for('get_trending_songs')}}>Trending Songs</a></p>
+    <p class="contact"><a href={{url_for('contact')}}>Contact Us</a></p>
+    <p class="contact"><a href={{url_for('shows')}}>Shows</a></p>
+    <p class="logout"><a href={{url_for('logout')}}>Logout</a></p>
+
+    <!-- Unordered lists of artists and external links to their artist page -->
+    <ul class="a">
+        <img src="/static/images/rlo.jpeg" alt="R.Lo" width="300" height="300"/>
+            <li><a href="https://soundcloud.com/r_loww">R.Lo</a></li>
+        <img src="/static/images/lucid.jpeg" alt="lucidjason" width="300" height="300"/>
+            <li><a href="https://lucidjason.bandcamp.com">Lucidjason</a></li>
+        <img src="/static/images/avant.jpeg" alt="Chris Avantgard" width="300" height="300"/>
+            <li><a href="https://www.beatport.com/artist/chris-avantgarde/131833">Chris Avantgard</a></li>
+        <img src="/static/images/skinny.jpeg" alt="skinnydip" width="300" height="300"/>
+            <li><a href="https://soundcloud.com/skinnydipmusique">Skinnydip</a></li>
+        <img src="/static/images/neko.jpeg" alt="Neko Hacker" width="300" height="300"/>
+            <li><a href="https://soundcloud.com/neko_hacker">Neko Hacker</a></li>
+        <img src="/static/images/tocco.jpeg" alt="toccoyaki" width="300" height="300"/>
+            <li><a href="https://soundcloud.com/toccoyaki">Toccoyaki</a></li>
+    </ul>
+
+</body>
+</html>

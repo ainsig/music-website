@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+
+    <!-- Link to style sheet -->
+    <link rel="stylesheet" type="text/css" href="{{url_for('static', filename='css/style.css')}}">
+    <title>Contact us</title>
+
+</head>
+<body>
+
+    <!-- Headings -->
+    <h1>Contact our admins...</h1>
+    <h2>Let us know if you find the next big hit...</h2>
+    <h3>digitalunderground@yourdomain.com</h3>
+
+
+    <!-- Links to all the web pages -->
+    <p class="main"><a href={{url_for('get_main_page')}}>Main Page</a></p>
+    <p class="trending"><a href={{url_for('get_trending_songs')}}>Trending Songs</a></p>
+    <p class="artists"><a href={{url_for('get_new_artists')}}>New Artists</a></p>
+    <p class="contact"><a href={{url_for('shows')}}>Shows</a></p>
+    <p class="logout"><a href={{url_for('logout')}}>Logout</a></p>
+
+</body>
+</html>

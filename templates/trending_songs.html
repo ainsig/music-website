@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+
+    <!-- Creating a link to the style sheet -->
+    <link rel="stylesheet" type="text/css" href="{{url_for('static', filename='css/style.css')}}">
+    <title>Trending Songs</title>
+</head>
+<body>
+
+    <!-- Headings -->
+    <h1>Songs you've probably never heard of...</h1>
+    <h2>Top 10 new songs we found everywhere...</h2>
+    <h3>EVERYWHERE...</h3>
+
+    <!-- Links to the main page and new artists page -->
+    <p class="main"><a href={{url_for('get_main_page')}}>Main Page</a></p>
+    <p class="artists"><a href={{url_for('get_new_artists')}}>New Artists</a></p>
+    <p class="contact"><a href={{url_for('contact')}}>Contact Us</a></p>
+    <p class="contact"><a href={{url_for('shows')}}>Shows</a></p>
+    <p class="logout"><a href={{url_for('logout')}}>Logout</a></p>
+
+    <!-- Ordered lists of top 10 songs -->
+    <ol class="a">
+        <li>Beside Oneself With Joy Chocolate</li>
+        <li>Magical Sunday Morning</li>
+        <li>Crazy For Your Circus</li>
+        <li>Waiting For Discotheque</li>
+        <li>10/10 Sauce</li>
+        <li>Northern Shuffle</li>
+        <li>Infinite Machine</li>
+        <li>Riotous Wave</li>
+        <li>Please, No Technology</li>
+        <li>Impossible Youth</li>
+    </ol>
+
+</body>
+</html>

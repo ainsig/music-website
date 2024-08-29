@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+
+    <!-- Link to style sheet-->
+    <link rel="stylesheet" type="text/css" href="{{url_for('static', filename='css/style.css')}}">
+    <title>Main page</title>
+</head>
+<body>
+
+
+    <!-- Headings -->
+    <h1>You logged in successfully...</h1>
+    <h2>WELCOME TO ELECTRONIC UNDERGROUND</h2>
+    <h3>A website dedicated to bringing you new music. Hear them before they're cool.</h3>
+
+    <p class="words">Our admins work very hard to give you the best content possible.
+        We spend hours searching the internet for new music and shows that unleashes
+        a different kind of vibe. Check out the links below for the latest gems.</p>
+
+
+    <!-- Links to the different web pages -->
+    <p class="trending"><a href={{url_for('get_trending_songs')}}>Trending Songs</a></p>
+    <p class="artists"><a href={{url_for('get_new_artists')}}>New Artists</a></p>
+    <p class="contact"><a href={{url_for('contact')}}>Contact Us</a></p>
+    <p class="contact"><a href={{url_for('shows')}}>Shows</a></p>
+    <p class="change_password"><a href={{url_for('change_password')}}>Change Password</a></p>
+    <p class="logout"><a href={{url_for('logout')}}>Logout</a></p>
+
+    <!-- Printing date and time-->
+    <div class="date_time">
+         {{datetime}}
+    </div>
+
+
+</body>
+</html>
